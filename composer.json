@@ -1,0 +1,17 @@
+{
+    "name": "ivanhanak/custom-logger",
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "authors": [
+        {
+            "name": "Ivan Hanák",
+            "email": "hanakivan@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : "^8.0",
+        "psr/log": "^3.0",
+        "ext-mbstring": "*"
+    }
+}
